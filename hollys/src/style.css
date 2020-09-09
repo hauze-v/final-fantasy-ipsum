@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:900);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, button {
+  font-family: big-caslon-fb, serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+    background-color: #D5E6DE;
+    color: #004F35;
+    font-family: 'Open Sans';
+}
+@media screen and (max-width: 500px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+figure {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.text-input, button {
+  padding: 1rem;
+  font-size: 24px;
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.text-input {
+  color: #063E23;
+  margin-bottom: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+button {
+  background-color: #063E23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Open Sans';
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+}
+
+button:hover {
+    background-color: #D0BAD4;
+}
+.controls-container {
+  margin-bottom: 10px;
+}
+.language-container, .words-sentences-container {
+  margin-bottom: 10px;
+  display: inline-flex;
+  justify-content: center;
+}
+input[type="radio"] {
+  visibility: hidden;
+  width: 0;
+}
+input[type="radio"]:checked + label {
+  background-color: #063E23;
+  color: white;
+}
+label {
+  font-size: 1rem;
+  border-left: 0;
+  padding: 8px;
+  display: block;
+  text-align: center;
+  width: 150px;
+  color: #063E23;
+  cursor: pointer;
+}
+label:nth-of-type(1) {
+  border-radius: 10px 0 0 10px;
+}
+label:last-child {
+  border-radius: 0 10px 10px 0;
+}
+@media screen and (max-width: 500px) {
+  label {
+    width: 100px;
+    font-size: 0.9rem;
+  }
+}
+.output-ipsum {
+  margin-top: 30px;
+  padding: 15px;
+  line-height: 1.8em;
+    font-size: 20px;
+  width: 600px;
+    margin: auto;
+    margin-bottom: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
