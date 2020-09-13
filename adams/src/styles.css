@@ -1,20 +1,53 @@
+@font-face {
+  font-family: 'FF';
+  src: url('fonts/ff.woff') format('woff'),
+    url('fonts/finalf.ttf') format('truetype');
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 .final__ipsum__title {
+  font-family: 'FF';
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 3px;
   position: absolute; 
   left: 0; 
   right: 0; 
   margin-left: auto; 
   margin-right: auto;
   margin-top: 5%;
-  width: 300px; /* Need a specific value to work */
+  width: 25rem; /* Need a specific value to work */
 }
 .final__ipsum__image {
-  border: 2px solid blue;
   max-width: 100%;
   height: auto;
-
+}
+.final__ipsum__body {
+  padding: 1rem;
+  width: 50%;
+  margin: 0 auto;
+}
+.final__ipsum__body {
+  font-size: 1.3rem;
+}
+.final__ipsum__caption {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.final__ipsum__form {
+  border: 2px solid blue;
+  padding: 1rem;
+  text-align: center;
+  width: 797px;
+}
+.final__ipsum__sentences {
+  width: 100%;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  /* shadow */
 }
