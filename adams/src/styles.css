@@ -9,6 +9,10 @@
   margin: 0px;
   padding: 0px;
 }
+.final__ipsum__head {
+  border: 2px solid red;
+  padding: 0px;
+}
 .final__ipsum__title {
   font-family: 'FF';
   font-size: 3rem;
@@ -25,6 +29,7 @@
 .final__ipsum__image {
   max-width: 100%;
   height: auto;
+  margin-bottom: 0px;
 }
 .final__ipsum__body {
   padding: 1rem;
@@ -38,11 +43,16 @@
   text-align: center;
   margin-bottom: 2rem;
 }
+.final__ipsum__body {
+  width: 100%;
+  background-color: #74C2E1;
+}
 .final__ipsum__form {
   border: 2px solid blue;
   padding: 1rem;
   text-align: center;
-  width: 797px;
+  width: 675px;
+  margin: 0 auto;
 }
 .final__ipsum__sentences {
   width: 100%;
