@@ -9,10 +9,6 @@
   margin: 0px;
   padding: 0px;
 }
-.final__ipsum__head {
-  border: 2px solid red;
-  padding: 0px;
-}
 .final__ipsum__title {
   font-family: 'FF';
   font-size: 3rem;
@@ -42,13 +38,13 @@
 .final__ipsum__caption {
   text-align: center;
   margin-bottom: 2rem;
+  color: #005B9A;
 }
 .final__ipsum__body {
   width: 100%;
   background-color: #74C2E1;
 }
 .final__ipsum__form {
-  border: 2px solid blue;
   padding: 1rem;
   text-align: center;
   width: 675px;
@@ -58,6 +54,16 @@
   width: 100%;
   font-size: 2rem;
   padding: 1rem;
-  border-radius: 10px;
-  /* shadow */
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+  /* remove shadow */
+}
+.final__ipsum__button {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 15px;
+  width: 100%;
+  background-color: #005B9A;
+  color: white;
+  
 }
