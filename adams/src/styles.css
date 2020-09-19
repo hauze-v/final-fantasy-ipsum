@@ -65,5 +65,7 @@
   width: 100%;
   background-color: #005B9A;
   color: white;
-  
+}
+.final__ipsum__button:hover {
+  cursor: pointer;
 }
