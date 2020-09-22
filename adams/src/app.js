@@ -354,6 +354,7 @@ let finalIpsum = {
 
 const sentenceInputEl = document.querySelector(".final__ipsum__input");
 const generateTextButtonEl = document.querySelector(".final__ipsum__button");
+const outputSectionEl = document.querySelector(".output-ipsum");
 
 
 /*
@@ -369,7 +370,7 @@ generateTextButtonEl.addEventListener("click", function () {
   let sentences = sentenceInputEl.value;
 
   /* Call generateIpsum and pass in the number of sentences */
-  console.log(generateIpsum(sentences));
+  outputSectionEl.innerHTML = generateIpsum(sentences);
 })
 
 /* Generates and returns an array of random ipsum given the number of sentences */
@@ -392,7 +393,7 @@ function generateIpsum(sentences) {
     generatedIpsum.push(`${randomCharacter} ${randomAbility} ${randomEnemy} ${randomUltimateWeapon} ${randomItem} ${randomEquipment} ${randomSummon} ${randomJob}.`)
   }
 
-  return generatedIpsum;
+  return generatedIpsum.join(" ");
 }
 
 /* Functions to grab random values from each category */

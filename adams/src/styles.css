@@ -1,9 +1,18 @@
 @font-face {
+  font-family: 'Alexandria';
+  src: url('fonts/Alexandria.woff') format('woff'),
+    url('fonts/Alexandria.ttf') format('truetype');
+}
+@font-face {
   font-family: 'FF';
   src: url('fonts/ff.woff') format('woff'),
     url('fonts/finalf.ttf') format('truetype');
 }
-
+@font-face {
+  font-family: 'FFX';
+  src: url('fonts/FFXLOGO.woff') format('woff'),
+    url('fonts/FFXLOGO.TTF') format('truetype');
+}
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -46,6 +55,7 @@
   font-size: 1.3rem;
 }
 .final__ipsum__caption {
+  font-family: sans-serif;
   text-align: center;
   margin-bottom: 2rem;
   color: #005B9A;
@@ -79,6 +89,7 @@
   width: 100%;
   background-color: #005B9A;
   color: white;
+  margin-bottom: 2rem;
 }
 .final__ipsum__button:hover {
   cursor: pointer;
@@ -86,6 +97,15 @@
 }
 .final__ipsum__text__output {
   padding-bottom: 40px;
+  background: white;
+  border-radius: 15px;
+  padding: 1rem;
+  word-spacing: 3px;
+  line-height: 2rem;
+  color: #005B9A;
+  font-weight: bold;
+  font-family: 'Alexandria', sans-serif;
+
 }
 .final__ipsum__footer {
   background-color: #8fcce2;
