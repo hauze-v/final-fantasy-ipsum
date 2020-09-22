@@ -351,3 +351,79 @@ let finalIpsum = {
     "Garuda"
   ]
 }
+
+const sentenceInputEl = document.querySelector(".final__ipsum__input");
+const generateTextButtonEl = document.querySelector(".final__ipsum__button");
+
+
+/*
+  Write an event listener for generateText button.
+  When it's clicked, call the generateIpsum function
+    generateIpsum function will take in the number of sentences and build and return an array of ipsum
+  Back in the listener, it will print the returned array to the output section of the HTML page
+*/
+
+/* Whenever the Generate Text button is clicked, call the generateIpsum function and display the result */
+generateTextButtonEl.addEventListener("click", function () {
+  /* Grab the amount of sentences */
+  let sentences = sentenceInputEl.value;
+
+  /* Call generateIpsum and pass in the number of sentences */
+  console.log(generateIpsum(sentences));
+})
+
+/* Generates and returns an array of random ipsum given the number of sentences */
+function generateIpsum(sentences) {
+  let generatedIpsum = [];
+
+  /* Perform the following for how many sentences there are */
+  for (let i = 1; i <= sentences; i++) {
+    /* Grab random values */
+    let randomCharacter = getRandomCharacter();
+    let randomEnemy = getRandomEnemy().toLowerCase();
+    let randomItem = getRandomItem();
+    let randomEquipment = getRandomEquipment();
+    let randomUltimateWeapon = getRandomUltWeapon().toLowerCase();
+    let randomAbility = getRandomAbility();
+    let randomJob = getRandomJob();
+    let randomSummon = getRandomSummon();
+
+    /* Push sentence to resulting array */
+    generatedIpsum.push(`${randomCharacter} ${randomAbility} ${randomEnemy} ${randomUltimateWeapon} ${randomItem} ${randomEquipment} ${randomSummon} ${randomJob}.`)
+  }
+
+  return generatedIpsum;
+}
+
+/* Functions to grab random values from each category */
+function getRandomCharacter() {
+  return finalIpsum.characters[Math.floor(Math.random() * finalIpsum.characters.length)]
+}
+
+function getRandomEnemy() {
+  return finalIpsum.enemies[Math.floor(Math.random() * finalIpsum.enemies.length)]
+}
+
+function getRandomItem() {
+  return finalIpsum.items[Math.floor(Math.random() * finalIpsum.items.length)]
+}
+
+function getRandomEquipment() {
+  return finalIpsum.equipment[Math.floor(Math.random() * finalIpsum.equipment.length)]
+}
+
+function getRandomUltWeapon() {
+  return finalIpsum.ultimateWeapons[Math.floor(Math.random() * finalIpsum.ultimateWeapons.length)]
+}
+
+function getRandomAbility() {
+  return finalIpsum.abilities[Math.floor(Math.random() * finalIpsum.abilities.length)]
+}
+
+function getRandomJob() {
+  return finalIpsum.jobs[Math.floor(Math.random() * finalIpsum.jobs.length)]
+}
+
+function getRandomSummon() {
+  return finalIpsum.summons[Math.floor(Math.random() * finalIpsum.summons.length)]
+}
