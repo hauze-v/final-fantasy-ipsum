@@ -9,6 +9,16 @@
   margin: 0px;
   padding: 0px;
 }
+.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
 .final__ipsum__title {
   font-family: 'FF';
   font-size: 3rem;
@@ -42,7 +52,7 @@
 }
 .final__ipsum__body {
   width: 100%;
-  background-color: #74C2E1;
+  background-color: #b9e2f1;
 }
 .final__ipsum__form {
   padding: 1rem;
@@ -68,4 +78,19 @@
 }
 .final__ipsum__button:hover {
   cursor: pointer;
+}
+.final__ipsum__text__output {
+  padding-bottom: 40px;
+}
+.final__ipsum__footer {
+  background-color: #8fcce2;
+}
+.final__ipsum__item__container {
+  width: 45%;
+  margin: 0 auto;
+
+}
+.final__ipsum__icon {
+  width: 5%;
+  margin: 1rem;
 }
