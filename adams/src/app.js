@@ -46,7 +46,7 @@ let finalIpsum = {
     "Edea",
     "Dadaluma",
     "Kefka",
-    "Zidance",
+    "Zidane",
     "Vivi",
     "Steiner",
     "Garnet",
