@@ -28,6 +28,12 @@
     width: 90%;
   }
 }
+/* @media screen and (min-width: 375px) {
+  .final__ipsum__title {
+    position: static;
+    font-size: 0.2rem;
+  }
+} */
 .final__ipsum__title {
   font-family: 'FF';
   font-size: 3rem;
@@ -39,7 +45,7 @@
   margin-left: auto; 
   margin-right: auto;
   margin-top: 5%;
-  width: 25rem; /* Need a specific value to work */
+  /* width: 25rem; Need a specific value to work */
 }
 .final__ipsum__image {
   max-width: 100%;
@@ -69,7 +75,7 @@
 .final__ipsum__form {
   padding: 1rem;
   text-align: center;
-  width: 675px;
+  max-width: 675px;
   margin: 0 auto;
 }
 .final__ipsum__input {
@@ -111,10 +117,10 @@
   background-color: #8fcce2;
 }
 .final__ipsum__item__container {
-  width: 45%;
+  max-width: 45%;
   margin: 0 auto;
 }
 .final__ipsum__icon {
-  width: 5%;
   margin: 1rem;
+  width: 25px;
 }
