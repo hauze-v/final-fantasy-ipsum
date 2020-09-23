@@ -385,12 +385,13 @@ function generateIpsum(sentences) {
     let randomItem = getRandomItem();
     let randomEquipment = getRandomEquipment();
     let randomUltimateWeapon = getRandomUltWeapon().toLowerCase();
-    let randomAbility = getRandomAbility();
+    let randomAbility1 = getRandomAbility();
+    let randomAbility2 = getRandomAbility();
     let randomJob = getRandomJob();
     let randomSummon = getRandomSummon();
 
     /* Push sentence to resulting array */
-    generatedIpsum.push(`${randomCharacter} ${randomAbility} ${randomEnemy} ${randomUltimateWeapon} ${randomItem} ${randomEquipment} ${randomSummon} ${randomJob}.`)
+    generatedIpsum.push(`${randomCharacter} ${randomAbility1} ${randomEnemy} ${randomUltimateWeapon} ${randomItem} ${randomAbility2} ${randomEquipment} ${randomSummon} ${randomJob}.`)
   }
 
   return generatedIpsum.join(" ");
