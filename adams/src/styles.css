@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 @font-face {
   font-family: 'Alexandria';
   src: url('fonts/Alexandria.woff') format('woff'),
@@ -66,12 +67,12 @@
   font-size: 1.3rem;
 }
 .final__ipsum__caption {
-  font-family: sans-serif;
+  font-family: 'Questrial', sans-serif;
   text-align: center;
   margin-bottom: 2rem;
   color: #0b251c;
-  font-size: 1.5rem;
-  margin-top: 1rem;
+  font-size: 2rem;
+  margin-top: 2rem;
 }
 .final__ipsum__body {
   width: 100%;
@@ -98,7 +99,7 @@
   padding: 1rem;
   border-radius: 15px;
   width: 100%;
-  background-color: #0b251c;
+  background-color: #13523c;
   color: white;
   margin-bottom: 2rem;
   outline: none;
@@ -122,7 +123,7 @@
 
 }
 .final__ipsum__footer {
-  background-color: #145d42;
+  background-color: #24916c;
 }
 .final__ipsum__item__container {
   max-width: 45%;

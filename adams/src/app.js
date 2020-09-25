@@ -356,14 +356,6 @@ const sentenceInputEl = document.querySelector(".final__ipsum__input");
 const generateTextButtonEl = document.querySelector(".final__ipsum__button");
 const outputSectionEl = document.querySelector(".output-ipsum");
 
-
-/*
-  Write an event listener for generateText button.
-  When it's clicked, call the generateIpsum function
-    generateIpsum function will take in the number of sentences and build and return an array of ipsum
-  Back in the listener, it will print the returned array to the output section of the HTML page
-*/
-
 /* Whenever the Generate Text button is clicked, call the generateIpsum function and display the result */
 generateTextButtonEl.addEventListener("click", function () {
   /* Grab the amount of sentences */
