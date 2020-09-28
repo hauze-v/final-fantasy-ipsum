@@ -29,31 +29,121 @@
     width: 90%;
   }
 }
-/* @media screen and (min-width: 375px) {
+@media screen and (max-width: 414px) {
   .final__ipsum__title {
-    position: static;
-    font-size: 0.2rem;
+    font-family: 'FF';
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: #0b251c;
+    background-color: #24a67a;
   }
-} */
+  .final__ipsum__caption {
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #0b251c;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .final__ipsum__input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+  }
+  .final__ipsum__button {
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 100%;
+    background-color: #13523c;
+    color: white;
+    margin-bottom: 2rem;
+    outline: none;
+    border: none;
+  }
+  .final__ipsum__text__output {
+    padding-bottom: 40px;
+    background: white;
+    border-radius: 15px;
+    padding: 1rem;
+    word-spacing: 1px;
+    line-height: 1.5rem;
+    color: #0b251c;
+    font-weight: bold;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+  }
+  .final__ipsum__item__container {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 500px) {
+  .final__ipsum__title {
+    font-family: 'FF';
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 4px;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 7%;
+    /* width: 25rem; Need a specific value to work */
+    color: #181717; 
+  }
+  .final__ipsum__caption {
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #0b251c;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .final__ipsum__input {
+    width: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+  }
+  .final__ipsum__button {
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 100%;
+    background-color: #13523c;
+    color: white;
+    margin-bottom: 2rem;
+    outline: none;
+    border: none;
+  }
+  .final__ipsum__text__output {
+    padding-bottom: 40px;
+    background: white;
+    border-radius: 15px;
+    padding: 1rem;
+    word-spacing: 3px;
+    line-height: 2rem;
+    color: #0b251c;
+    font-weight: bold;
+    font-family: 'Alexandria', sans-serif;
+    margin-bottom: 3rem;
+  }
+  .final__ipsum__item__container {
+    max-width: 45%;
+    margin: 0 auto;
+  }
+}
 .final__ipsum__head {
   margin-bottom: 0px;
   padding-bottom: 0px;
   background-color: black;
-}
-.final__ipsum__title {
-  font-family: 'FF';
-  font-size: 3rem;
-  text-align: center;
-  letter-spacing: 4px;
-  position: absolute; 
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto;
-  margin-top: 7%;
-  /* width: 25rem; Need a specific value to work */
-  color: #181717;
-  
 }
 .final__ipsum__image {
   max-width: 100%;
@@ -66,14 +156,6 @@
 .final__ipsum__body {
   font-size: 1.3rem;
 }
-.final__ipsum__caption {
-  font-family: 'Questrial', sans-serif;
-  text-align: center;
-  margin-bottom: 2rem;
-  color: #0b251c;
-  font-size: 2rem;
-  margin-top: 2rem;
-}
 .final__ipsum__body {
   width: 100%;
   background-color: #24a67a;
@@ -84,50 +166,17 @@
   max-width: 675px;
   margin: 0 auto;
 }
-.final__ipsum__input {
-  width: 100%;
-  font-size: 2rem;
-  padding: 1rem;
-  border-radius: 15px;
-  margin-bottom: 0.5rem;
-}
+
 .final__ipsum__input:focus {
   outline: none;
 }
-.final__ipsum__button {
-  font-size: 2rem;
-  padding: 1rem;
-  border-radius: 15px;
-  width: 100%;
-  background-color: #13523c;
-  color: white;
-  margin-bottom: 2rem;
-  outline: none;
-  border: none;
-}
+
 .final__ipsum__button:hover {
   cursor: pointer;
   opacity: 0.9;
 }
-.final__ipsum__text__output {
-  padding-bottom: 40px;
-  background: white;
-  border-radius: 15px;
-  padding: 1rem;
-  word-spacing: 3px;
-  line-height: 2rem;
-  color: #0b251c;
-  font-weight: bold;
-  font-family: 'Alexandria', sans-serif;
-  margin-bottom: 3rem;
-
-}
 .final__ipsum__footer {
   background-color: #24916c;
-}
-.final__ipsum__item__container {
-  max-width: 45%;
-  margin: 0 auto;
 }
 .final__ipsum__icon {
   margin: 1rem;
